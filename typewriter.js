@@ -15,8 +15,6 @@ function start() {
 }
 
 function write() {
-  console.log(text);
-
   if (textLen == count) {
     setTimeout(start, 1000);
   } else {
